@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Papiya Sarees</title>
+<meta property="og:image" content="https://papiya-dubey.github.io/poludi-sarees/assets/images/thumbs/0215.jpg"/>
+<style>
+/* Container styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Image styling */
+.image-container {
+  border-left: 10px solid #25d366; /* WhatsApp green */
+  border-right: 10px solid #25d366; /* WhatsApp green */
+  padding: 20px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Button container */
+.button-container {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* WhatsApp icon styling */
+.whatsapp-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #25d366; /* WhatsApp green */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/* WhatsApp icon hover effect */
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+}
+
+/* WhatsApp icon image */
+.whatsapp-icon img {
+  width: 70%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+
+<!-- Button container -->
+<div class="button-container">
+  <!-- WhatsApp icon button -->
+  <a href="whatsapp://send?text=https://papiya-dubey.github.io/poludi-sarees/assets/images/fulls/0215.html" data-action="share/whatsapp/share" class="whatsapp-icon">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon">
+  </a>
+</div>
+
+<!-- Image container -->
+<div class="container">
+  <div class="image-container">
+    <img class="image" src="0215.jpg" alt="Your Image">
+  </div>
+</div>
+
+</body>
+</html>
